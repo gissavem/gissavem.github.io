@@ -36,18 +36,19 @@ a:hover{
   text-decoration: underline;
 }
 .centerblock{
-  display: block;
+  display: flex;
   min-height: 40vh;
   max-height: 40vh;
+  overflow: hidden;
+  justify-content: center;
 }
 .section-block{
-  display: block;
+  display: flex;
   width: 100vw;
   height: 100vh;
 }
 #johnpic{
   height: 80%;
-  margin-right: auto;
   margin: 10% auto;
 }
 #sectionA{
@@ -64,9 +65,8 @@ a:hover{
 
 }
 #welcome-box{
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-
+  justify-content: center;
 }
