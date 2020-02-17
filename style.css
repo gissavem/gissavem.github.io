@@ -5,33 +5,50 @@
   light french beige:#CBBF7A;
   sunny:#EDF67D;
 }
-
-body{
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
   scroll-behavior: smooth;
+}
+body{
   font-family: 'Montserrat', sans-serif;
   color: #E3E3E3;
   background-color: #00072D;
   margin: 0px;
 }
-a:hover{
-  color: #EDF67D;
+h1{
+  font-weight: normal;
+  font-size: 3em;
+}
+a{
+  color: #E3E3E3;
   text-decoration: none;
 }
 a:visited{
   color: #E3E3E3;
   text-decoration: none;
 }
-a{
-  color: #E3E3E3;
-  text-decoration: none;
+a:hover{
+  color: #EDF67D;
+  text-decoration: underline;
 }
-header h1{
-  text-align: center;
+.centerblock{
+  display: block;
+  min-height: 40vh;
+  max-height: 40vh;
 }
 .section-block{
   display: block;
   width: 100vw;
   height: 100vh;
+}
+#johnpic{
+  height: 80%;
+  margin-right: auto;
+  margin: 10% auto;
 }
 #sectionA{
   background-color: #00072D;
@@ -44,10 +61,12 @@ header h1{
   display: block;
   width: 100vw;
   height: 100vh;
-}
 
-#sectionA figure img{
-  height: 300px;
-  border: 3px solid #CBBF7A;
+}
+#welcome-box{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 
 }
