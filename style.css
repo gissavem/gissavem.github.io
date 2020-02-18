@@ -23,18 +23,7 @@ h1{
   font-weight: normal;
   font-size: 3em;
 }
-a{
-  color: #E3E3E3;
-  text-decoration: none;
-}
-a:visited{
-  color: #E3E3E3;
-  text-decoration: none;
-}
-a:hover{
-  color: #EDF67D;
-  text-decoration: underline;
-}
+
 .section-block{
   display: flex;
   width: 100vw;
@@ -48,18 +37,58 @@ a:hover{
   flex: 1;
   text-align: center;
 }
-.centerblock{
-  min-height: 40vh;
-  max-height: 40vh;
+.presentation{
+  display: flex;
+  padding: 5%;
+  margin: 20vh auto;
+  text-align: left;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex: 2 1 auto;
+  justify-content: space-evenly;
+}
+.presentation p{
+  font-size: 3em;
+  align-self: center;
+  font-weight: lighter;
+  flex: 1;
+  margin: 0 auto;
+}
+.orange{
+  font-weight: bold;
+  color: #FFA71A;
+  text-transform: capitalize;
 }
 #johnpic{
   max-height: 100vh;
+  vertical-align:baseline;
 }
 #sectionA{
   background-color: #00072D;
+  background-image: radial-gradient(#284B63, #00072D);
 }
 #sectionB{
   background-color: #284B63;
+  background-image: radial-gradient(#284B63, #00072D);
 }
-#welcome-box{
+#welcome-button{
+  text-align: center;
+  font-size: 2em;
+  padding: 5px 10px;
+  color: #00072D;
+  background-color: #FFA71A;
+  border-radius: 25px;
+  flex: 1;
+  box-shadow: 3px 3px 5px -3px #00072D;
+
+}
+#welcome-button:hover{
+  background-image: radial-gradient(#ffaa21, #FFA71A);
+  color: #E3E3E3;
+  box-shadow: 0px 0px 0px 0px #00072D;
+}
+a{
+  color: #E3E3E3;
+  text-decoration: none;
 }
