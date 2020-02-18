@@ -4,7 +4,7 @@
   dark slate grey: #284B63;
   light french beige:#CBBF7A;
   sunny:#EDF67D;
-}
+}  
 *{
   margin: 0;
   padding: 0;
@@ -29,17 +29,9 @@ h1{
   width: 100vw;
   height: 100vh;
 }
-.photoblock{
-  max-width: 33.33%;
-  overflow: hidden;
-}
-.right-block{
-  flex: 1;
-  text-align: center;
-}
 .presentation{
   display: flex;
-  padding: 5%;
+  padding: 5% 15%;
   margin: 20vh auto;
   text-align: left;
   flex-direction: column;
@@ -49,38 +41,87 @@ h1{
   justify-content: space-evenly;
 }
 .presentation p{
-  font-size: 3em;
+  font-size: 2em;
+  padding: 0 10%;
   align-self: center;
-  font-weight: lighter;
+  font-weight:100;
   flex: 1;
   margin: 0 auto;
 }
 .orange{
-  font-weight: bold;
+  font-weight: 400;
   color: #FFA71A;
+}
+.name{
   text-transform: capitalize;
 }
-#johnpic{
-  max-height: 100vh;
-  vertical-align:baseline;
+.skills{
+  padding: 5% 0%;
+  width: 25%;
 }
-#sectionA{
+#about-me p{
+  padding-top: 5%;
+  font-size: 1em;
+}
+#my-skills ul{
+  padding-left: 5%;
+  padding-top: 5%;
+  list-style-position: outside;
+  list-style: none;
+}
+#my-skills li{
+  padding-top: 5%;
+  text-indent: -1em;
+}
+#my-skills li:before {
+  content: "//";
+  padding-right: 6px;
+  color: #FFA71A;
+}
+.skills figure{
+  overflow: hidden;
+}
+.skills figure img{
+  width: 100%;
+  border-radius: 50%;
+}
+.skills h2{
+  margin-top: 15%;
+}
+#icon-links{
+  display: flex;
+  height: 10%;
+  justify-content: space-between;
+}
+#icon-links figure{
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+#icon-links img{
+  height: 100%;
+  border-radius: 50%;
+  width: auto;
+  overflow: hidden;
+}
+#welcome-page{
   background-color: #00072D;
   background-image: radial-gradient(#284B63, #00072D);
 }
-#sectionB{
+#skill-page{
   background-color: #284B63;
   background-image: radial-gradient(#284B63, #00072D);
+  justify-content: space-around;
 }
 #welcome-button{
   text-align: center;
-  font-size: 2em;
-  padding: 5px 10px;
+  font-size: 1em;
+  padding: 3px 80px;
   color: #00072D;
   background-color: #FFA71A;
+  border: 2px solid #FFA71A;
   border-radius: 25px;
   flex: 1;
-  box-shadow: 3px 3px 5px -3px #00072D;
 
 }
 #welcome-button:hover{
