@@ -98,6 +98,7 @@ h1{
 #about-me p{
   padding-top: 5%;
   font-size: 1.25em;
+  overflow: auto;
 }
 #about-me span{
   margin-bottom: 1em;
