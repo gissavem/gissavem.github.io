@@ -1,9 +1,44 @@
-#COLORS{
-  richblack:#00072D;
-  platinum:#E3E3E3;
-  dark slate grey: #284B63;
-  light french beige:#CBBF7A;
-  sunny:#EDF67D;
+@media screen and (max-aspect-ratio: 1/1) {
+  #john-container{
+    order: 1;
+    flex: 1;
+  }
+  #presentation-container{
+    order: 2;
+    flex: 2;
+  }
+  #skill-container{
+    order: 3;
+    flex: 2;
+  }
+  #main-page{
+    height: 150vh;
+    flex-direction: column;
+    justify-content: flex-start !important;
+  }
+  #johnpic{
+    max-width: 60%;
+  }
+  .intro {
+    font-size: 2em;
+  }
+  .skills{
+    width: 100% !important;
+    padding: 5% 5%;
+  }
+  .skills h2{
+    margin-top: 2% !important ;
+  }
+
+  p{
+    font-size: 2em !important;
+  }
+  li{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 3em;
+  }
 }
 *{
   margin: 0;
@@ -56,7 +91,8 @@ h1{
   text-transform: capitalize;
 }
 .skills{
-  padding: 5% 0%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   width: 25%;
 }
 #about-me p{
@@ -82,7 +118,9 @@ h1{
   color: #FFA71A;
 }
 .skills figure{
+  display: flex;
   overflow: hidden;
+  justify-content: center;
 }
 .skills figure img{
   width: 100%;
@@ -136,13 +174,4 @@ h1{
 a{
   color: #E3E3E3;
   text-decoration: none;
-}
-#john-container{
-  order: 1;
-}
-#presentation-container{
-  order: 2;
-}
-#skill-container{
-  order: 3;
 }
