@@ -24,7 +24,7 @@
   }
   .skills{
     width: 100% !important;
-    padding: 5% 5%;
+    padding: 5% 5% !important;
   }
   .skills h2{
     margin-top: 2% !important ;
@@ -34,7 +34,7 @@
     font-size: 2em !important;
   }
   li{
-    font-size: 2em;
+    font-size: 2em !important;
   }
   h2{
     font-size: 3em;
@@ -97,7 +97,7 @@ h1{
 }
 #about-me p{
   padding-top: 5%;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 #about-me span{
   margin-bottom: 1em;
@@ -109,8 +109,9 @@ h1{
   list-style: none;
 }
 #my-skills li{
-  padding-top: 5%;
+  padding-top: 6%;
   text-indent: -1em;
+  font-size: 1.25em;
 }
 #my-skills li:before {
   content: "//";
