@@ -12,12 +12,15 @@
     flex: 2;
   }
   #main-page{
-    height: 200vh;
+    height: 190vh;
     flex-direction: column;
     justify-content: flex-start !important;
   }
   #johnpic{
     max-width: 60%;
+  }
+  #icon-links{
+    max-height: 20% !important;
   }
   .intro {
     font-size: 2em;
@@ -53,6 +56,10 @@ body{
   color: #E3E3E3;
   background-color: #00072D;
   margin: 0px;
+  background-color: #00072D;
+  background-image: radial-gradient(#284B63, #00072D);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1{
   font-weight: normal;
@@ -94,6 +101,12 @@ h1{
   padding-top: 5%;
   padding-bottom: 5%;
   width: 25%;
+  height: 100%;
+}
+#presentation-container{
+  overflow: auto;
+}
+#about-me{
 }
 #about-me p{
   padding-top: 5%;
@@ -132,7 +145,7 @@ h1{
 }
 #icon-links{
   display: flex;
-  max-height: 15%;
+  max-height: 12%;
   min-height: 5%;
   justify-content: space-between;
 }
@@ -142,23 +155,20 @@ h1{
 #icon-links figure{
   display: flex;
   flex: 1;
-  max-width: 30%;
   justify-content: space-around;
 }
 #icon-links img{
   height: 100%;
+  width: 100%;
   border-radius: 50%;
   width: auto;
   overflow: hidden;
   filter: invert(100);
 }
 #welcome-page{
-  background-color: #00072D;
-  background-image: radial-gradient(#284B63, #00072D);
+
 }
 #main-page{
-  background-color: #284B63;
-  background-image: radial-gradient(#284B63, #00072D);
   justify-content: space-around;
 }
 #welcome-button{
