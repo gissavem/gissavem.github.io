@@ -104,14 +104,16 @@ h1{
   height: 100%;
 }
 #presentation-container{
-  overflow: auto;
+  height: 100%;
 }
 #about-me{
 }
 #about-me p{
   padding-top: 5%;
-  font-size: 1em;
+  font-size: 1vw;
+  padding-bottom: 5%;
   overflow: auto;
+  height: 100%;
 }
 #about-me span{
   margin-bottom: 1em;
@@ -124,7 +126,7 @@ h1{
 #my-skills li{
   padding-top: 5%;
   text-indent: -1em;
-  font-size: 1em;
+  font-size: 1vw;
 }
 #my-skills li:before {
   content: "//";
