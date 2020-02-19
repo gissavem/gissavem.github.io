@@ -105,12 +105,11 @@ h1{
 }
 #my-skills ul{
   padding-left: 5%;
-  padding-top: 5%;
   list-style-position: outside;
   list-style: none;
 }
 #my-skills li{
-  padding-top: 6%;
+  padding-top: 5%;
   text-indent: -1em;
   font-size: 1em;
 }
