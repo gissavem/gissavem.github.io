@@ -135,6 +135,9 @@ h1{
   height: 15%;
   justify-content: space-between;
 }
+#icon-links{
+  justify-content: space-around;
+}
 #icon-links figure{
   display: flex;
   flex: 1;
