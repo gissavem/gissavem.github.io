@@ -157,7 +157,7 @@ h1{
 #icon-links figure{
   display: flex;
   flex: 1;
-  justify-content: space-around;
+  justify-content: center;
 }
 #icon-links img{
   height: 100%;
