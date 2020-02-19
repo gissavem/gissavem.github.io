@@ -54,9 +54,10 @@ html{
 body{
   font-family: 'Montserrat', sans-serif;
   color: #E3E3E3;
+  background-color: #00072D;
   margin: 0px;
-  background-color:#050521;
-  background-image: radial-gradient(#0C0C45, #050521);
+  background-color: #00072D;
+  background-image: radial-gradient(#284B63, #00072D);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -91,7 +92,7 @@ h1{
   margin: 0 auto;
 }
 .orange{
-  color: #FF3635;
+  color: #FFA71A;
 }
 .name{
   text-transform: capitalize;
@@ -177,13 +178,14 @@ h1{
   font-size: 1em;
   padding: 3px 80px;
   color: #00072D;
-  background-color: #FF3635;
-  border: 1px solid grey;
+  background-color: #FFA71A;
+  border: 2px solid #FFA71A;
   border-radius: 25px;
   flex: 1;
 
 }
 #welcome-button:hover{
+  background-image: radial-gradient(#ffaa21, #FFA71A);
   color: #E3E3E3;
   box-shadow: 0px 0px 0px 0px #00072D;
 }
