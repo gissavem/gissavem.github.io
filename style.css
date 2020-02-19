@@ -132,7 +132,7 @@ h1{
 }
 #icon-links{
   display: flex;
-  height: 10%;
+  height: 15%;
   justify-content: space-between;
 }
 #icon-links figure{
